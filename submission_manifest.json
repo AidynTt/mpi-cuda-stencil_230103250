@@ -1,0 +1,80 @@
+{
+  "github_username": "AidynTt",
+  "gpu_uuid": "GPU-5f3e9715-89c0-2858-ddd4-2c94ecde93ed",
+  "instance_seed": 15483842694073859920,
+  "mpi_ranks": 4,
+  "cartesian_grid": [
+    2,
+    2
+  ],
+  "global_grid": [
+    512,
+    512
+  ],
+  "time_steps": 400,
+  "serialized_ms": 8065.382182000121,
+  "overlapped_ms": 2235.6187339996723,
+  "speedup": 3.6076733744177436,
+  "parity_max_diff": 0.0,
+  "parity_passed": true,
+  "ptx_counts_rank0": {
+    "st.shared": 6,
+    "ld.shared": 5,
+    "bar.sync": 1
+  },
+  "ptx_audit_passed": true,
+  "serialized_trace": [
+    {
+      "step": 0,
+      "energy": 0.03141592560659228,
+      "residual": 0.0
+    },
+    {
+      "step": 100,
+      "energy": 0.031416674487576915,
+      "residual": 1.1209713856619017e-05
+    },
+    {
+      "step": 200,
+      "energy": 0.03141742952835748,
+      "residual": 1.0986181973573096e-05
+    },
+    {
+      "step": 300,
+      "energy": 0.0314181904224978,
+      "residual": 1.077027204579787e-05
+    },
+    {
+      "step": 400,
+      "energy": 0.03141895693782878,
+      "residual": 1.0561611826062294e-05
+    }
+  ],
+  "overlapped_trace": [
+    {
+      "step": 0,
+      "energy": 0.03141592560659228,
+      "residual": 0.0
+    },
+    {
+      "step": 100,
+      "energy": 0.031416674487576915,
+      "residual": 1.1209713856619017e-05
+    },
+    {
+      "step": 200,
+      "energy": 0.03141742952835748,
+      "residual": 1.0986181973573096e-05
+    },
+    {
+      "step": 300,
+      "energy": 0.0314181904224978,
+      "residual": 1.077027204579787e-05
+    },
+    {
+      "step": 400,
+      "energy": 0.03141895693782878,
+      "residual": 1.0561611826062294e-05
+    }
+  ]
+}
